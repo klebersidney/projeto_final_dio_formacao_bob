@@ -64,14 +64,14 @@ Toda a documentação está em [`geo_explorer/docs/`](./docs/):
 
 | Doc | Conteúdo |
 |-----|----------|
-| [Visão Geral](./docs/01-visao-geral.md) | Objetivos, arquitetura e fluxo do sistema |
-| [Estrutura](./docs/02-estrutura-projeto.md) | Mapa de arquivos e responsabilidades |
-| [Comandos Bob](./docs/03-comandos-bob.md) | Prompts, comandos slash e prompt engineering |
-| [Servidor MCP](./docs/04-servidor-mcp.md) | Ferramentas, transportes, configuração |
-| [Dados](./docs/05-dados.md) | Schema dos JSONs e trilhas disponíveis |
-| [Testes](./docs/06-testes.md) | Suite de 99 testes e relatório de cobertura |
-| [Modos de Uso](./docs/07-modos-de-uso.md) | Exemplos reais de conversas e sessões |
-| [Dicas & Insights](./docs/08-dicas-e-insights.md) | Boas práticas para futuros profissionais |
+| [Visão Geral](.geo_explorer/docs/01-visao-geral.md) | Objetivos, arquitetura e fluxo do sistema |
+| [Estrutura](.geo_explorer/docs/02-estrutura-projeto.md) | Mapa de arquivos e responsabilidades |
+| [Comandos Bob](.geo_explorer/docs/03-comandos-bob.md) | Prompts, comandos slash e prompt engineering |
+| [Servidor MCP](.geo_explorer/docs/04-servidor-mcp.md) | Ferramentas, transportes, configuração |
+| [Dados](.geo_explorer/docs/05-dados.md) | Schema dos JSONs e trilhas disponíveis |
+| [Testes](.geo_explorer/docs/06-testes.md) | Suite de 99 testes e relatório de cobertura |
+| [Modos de Uso](.geo_explorer/docs/07-modos-de-uso.md) | Exemplos reais de conversas e sessões |
+| [Dicas & Insights](.geo_explorer/docs/08-dicas-e-insights.md) | Boas práticas para futuros profissionais |
 
 ---
 
