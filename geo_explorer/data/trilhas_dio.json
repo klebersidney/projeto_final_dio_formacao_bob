@@ -1,0 +1,720 @@
+{
+  "trilhas": [
+    {
+      "id": 1,
+      "nome": "LLM01 - Injeção de Prompt: Fundamentos e Defesas",
+      "descricao": "Aprenda como ataques de injeção de prompt comprometem sistemas de IA generativa e como construir defesas eficazes baseadas nas diretrizes OWASP GenAI.",
+      "tecnologia": "Python / LangChain / OpenAI API",
+      "nivel": "Iniciante",
+      "numero_modulos": 6,
+      "xp_total": 1200,
+      "badges": [
+        { "nome": "Prompt Guardian", "raridade": "Comum", "icone": "🛡️" },
+        { "nome": "Injection Detector", "raridade": "Incomum", "icone": "🔍" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-09-30",
+        "codigo": "OWASP20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Anatomia de um ataque de Prompt Injection", "data": "2025-08-10", "duracao_min": 90 },
+        { "titulo": "Construindo filtros de entrada com LangChain", "data": "2025-08-24", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "LLM02 - Tratamento Inseguro de Saída",
+      "descricao": "Explore os riscos de confiar cegamente nas saídas de modelos de linguagem e aprenda técnicas de sanitização, validação e encoding para ambientes web e mobile.",
+      "tecnologia": "JavaScript / Node.js / Express",
+      "nivel": "Intermediário",
+      "numero_modulos": 8,
+      "xp_total": 1800,
+      "badges": [
+        { "nome": "Output Sanitizer", "raridade": "Incomum", "icone": "🧹" },
+        { "nome": "XSS Breaker", "raridade": "Raro", "icone": "⚔️" },
+        { "nome": "LLM Shield", "raridade": "Épico", "icone": "🏆" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 15,
+        "validade": "2025-10-15",
+        "codigo": "SAFELLM15"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "XSS via LLM: casos reais", "data": "2025-09-05", "duracao_min": 75 }
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "LLM03 - Envenenamento da Cadeia de Suprimentos de Treinamento",
+      "descricao": "Entenda como dados maliciosos injetados no pipeline de treinamento podem comprometer modelos inteiros e como auditar datasets e dependências de modelos.",
+      "tecnologia": "Python / Hugging Face / MLflow",
+      "nivel": "Avançado",
+      "numero_modulos": 10,
+      "xp_total": 2500,
+      "badges": [
+        { "nome": "Data Auditor", "raridade": "Raro", "icone": "📋" },
+        { "nome": "Supply Chain Watcher", "raridade": "Épico", "icone": "🔗" },
+        { "nome": "Poison Neutralizer", "raridade": "Lendário", "icone": "☠️" }
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Auditando datasets com Great Expectations", "data": "2025-08-15", "duracao_min": 90 },
+        { "titulo": "MLflow e rastreabilidade de modelos", "data": "2025-08-29", "duracao_min": 80 },
+        { "titulo": "Detectando backdoors em modelos open-source", "data": "2025-09-12", "duracao_min": 120 }
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "LLM04 - Negação de Serviço em Modelos de Linguagem",
+      "descricao": "Conheça os vetores de DoS específicos para LLMs, como flooding de contexto e geração de loops infinitos, e implemente rate limiting e circuit breakers.",
+      "tecnologia": "Python / FastAPI / Redis",
+      "nivel": "Intermediário",
+      "numero_modulos": 7,
+      "xp_total": 1600,
+      "badges": [
+        { "nome": "Rate Limiter", "raridade": "Comum", "icone": "⏱️" },
+        { "nome": "DoS Defender", "raridade": "Incomum", "icone": "🚧" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 10,
+        "validade": "2025-11-01",
+        "codigo": "DOS10"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Simulando ataques de flooding em APIs de LLM", "data": "2025-09-18", "duracao_min": 70 },
+        { "titulo": "Implementando circuit breaker com FastAPI", "data": "2025-10-02", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "LLM05 - Vulnerabilidades em Plugins e Ferramentas Externas",
+      "descricao": "Analise como plugins mal implementados ampliam a superfície de ataque de sistemas baseados em LLM e aprenda a criar sandboxes e escopos mínimos de permissão.",
+      "tecnologia": "Python / LangChain Tools / Docker",
+      "nivel": "Avançado",
+      "numero_modulos": 9,
+      "xp_total": 2200,
+      "badges": [
+        { "nome": "Plugin Auditor", "raridade": "Incomum", "icone": "🔌" },
+        { "nome": "Sandbox Architect", "raridade": "Raro", "icone": "📦" },
+        { "nome": "Least Privilege Pro", "raridade": "Épico", "icone": "🔐" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 25,
+        "validade": "2025-09-01",
+        "codigo": "PLUGIN25"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Construindo plugins seguros para ChatGPT", "data": "2025-08-20", "duracao_min": 90 },
+        { "titulo": "Containers como sandbox para tool calls", "data": "2025-09-03", "duracao_min": 75 }
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "LLM06 - Divulgação de Informações Sensíveis",
+      "descricao": "Explore como LLMs podem vazar dados de treinamento, segredos de sistema e PII, e implemente técnicas de differential privacy, data masking e guardrails.",
+      "tecnologia": "Python / AWS Macie / OpenAI Moderation API",
+      "nivel": "Intermediário",
+      "numero_modulos": 8,
+      "xp_total": 1900,
+      "badges": [
+        { "nome": "Privacy Guardian", "raridade": "Incomum", "icone": "🕵️" },
+        { "nome": "PII Hunter", "raridade": "Raro", "icone": "🎯" },
+        { "nome": "Data Masker", "raridade": "Épico", "icone": "🎭" }
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Detectando vazamento de dados com LLM Guardrails", "data": "2025-08-08", "duracao_min": 80 },
+        { "titulo": "Differential Privacy na prática", "data": "2025-08-22", "duracao_min": 90 },
+        { "titulo": "AWS Macie + LLM: proteção de PII", "data": "2025-09-05", "duracao_min": 70 }
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "LLM07 - Design de Agentes Inseguros",
+      "descricao": "Estude os padrões de falha em arquiteturas de agentes autônomos de IA, incluindo escalada de privilégio, ações irreversíveis e ausência de human-in-the-loop.",
+      "tecnologia": "Python / AutoGen / CrewAI",
+      "nivel": "Avançado",
+      "numero_modulos": 12,
+      "xp_total": 3000,
+      "badges": [
+        { "nome": "Agent Architect", "raridade": "Raro", "icone": "🤖" },
+        { "nome": "Human-in-the-Loop", "raridade": "Épico", "icone": "👤" },
+        { "nome": "Autonomous Guardian", "raridade": "Lendário", "icone": "⚡" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 30,
+        "validade": "2025-08-31",
+        "codigo": "AGENT30"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Arquiteturas de agentes: riscos e mitigações", "data": "2025-08-12", "duracao_min": 120 },
+        { "titulo": "Implementando HITL com CrewAI", "data": "2025-08-26", "duracao_min": 90 },
+        { "titulo": "Agentes AutoGen: audit logs e rollback", "data": "2025-09-09", "duracao_min": 80 }
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "LLM08 - Execução de Ações Excessivas",
+      "descricao": "Compreenda como LLMs com acesso a ferramentas podem executar ações além do necessário e aprenda a implementar políticas de autorização granular e revisão obrigatória.",
+      "tecnologia": "Python / LangGraph / OAuth 2.0",
+      "nivel": "Intermediário",
+      "numero_modulos": 7,
+      "xp_total": 1700,
+      "badges": [
+        { "nome": "Action Controller", "raridade": "Comum", "icone": "🎮" },
+        { "nome": "Scope Enforcer", "raridade": "Incomum", "icone": "📐" },
+        { "nome": "Authorization Expert", "raridade": "Raro", "icone": "🗝️" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 0,
+        "validade": null,
+        "codigo": null
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "OAuth 2.0 para controle de ações em LLMs", "data": "2025-09-15", "duracao_min": 75 }
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "LLM09 - Dependência Excessiva em LLMs",
+      "descricao": "Avalie os riscos de confiar cegamente em outputs de IA para decisões críticas e aprenda a construir sistemas com verificação humana, fallbacks e métricas de confiabilidade.",
+      "tecnologia": "Python / Evidently AI / Grafana",
+      "nivel": "Iniciante",
+      "numero_modulos": 5,
+      "xp_total": 1000,
+      "badges": [
+        { "nome": "Critical Thinker", "raridade": "Comum", "icone": "🧠" },
+        { "nome": "Reliability Engineer", "raridade": "Incomum", "icone": "📊" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 50,
+        "validade": "2025-08-20",
+        "codigo": "LAUNCH50"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Monitorando qualidade de respostas com Evidently", "data": "2025-08-07", "duracao_min": 60 },
+        { "titulo": "Dashboards de confiabilidade de IA com Grafana", "data": "2025-08-21", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 10,
+      "nome": "LLM10 - Roubo de Modelo (Model Theft)",
+      "descricao": "Entenda técnicas de extração e inferência de modelos proprietários via APIs e aprenda a implementar rate limiting, watermarking e detecção de consultas suspeitas.",
+      "tecnologia": "Python / PyTorch / NGINX",
+      "nivel": "Avançado",
+      "numero_modulos": 11,
+      "xp_total": 2800,
+      "badges": [
+        { "nome": "Model Protector", "raridade": "Raro", "icone": "🔒" },
+        { "nome": "Watermark Specialist", "raridade": "Épico", "icone": "💧" },
+        { "nome": "IP Guardian", "raridade": "Lendário", "icone": "👑" }
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Model extraction attacks: teoria e prática", "data": "2025-09-22", "duracao_min": 90 },
+        { "titulo": "Watermarking em modelos generativos", "data": "2025-10-06", "duracao_min": 80 },
+        { "titulo": "Detectando ataques de inferência com logs", "data": "2025-10-20", "duracao_min": 70 }
+      ]
+    },
+    {
+      "id": 11,
+      "nome": "GenAI01 - Segurança em RAG (Retrieval-Augmented Generation)",
+      "descricao": "Aprenda a construir pipelines RAG seguros, prevenindo data poisoning em vectorstores, controle de acesso a documentos e injeção via contexto recuperado.",
+      "tecnologia": "Python / LangChain / Pinecone / Weaviate",
+      "nivel": "Intermediário",
+      "numero_modulos": 9,
+      "xp_total": 2100,
+      "badges": [
+        { "nome": "RAG Architect", "raridade": "Incomum", "icone": "📚" },
+        { "nome": "Vector Guardian", "raridade": "Raro", "icone": "🗃️" },
+        { "nome": "Context Controller", "raridade": "Épico", "icone": "🧩" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-10-31",
+        "codigo": "RAG20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Segurança em vectorstores: Pinecone vs Weaviate", "data": "2025-08-16", "duracao_min": 90 },
+        { "titulo": "ACL em pipelines RAG com LangChain", "data": "2025-08-30", "duracao_min": 80 }
+      ]
+    },
+    {
+      "id": 12,
+      "nome": "GenAI02 - Proteção de Prompts de Sistema",
+      "descricao": "Descubra como proteger system prompts confidenciais de vazamentos e ataques de extração, usando criptografia, ofuscação e validação de integridade.",
+      "tecnologia": "Python / Vault HashiCorp / AWS KMS",
+      "nivel": "Avançado",
+      "numero_modulos": 8,
+      "xp_total": 2300,
+      "badges": [
+        { "nome": "Prompt Keeper", "raridade": "Raro", "icone": "🤫" },
+        { "nome": "Vault Master", "raridade": "Épico", "icone": "🏰" },
+        { "nome": "Encryption Wizard", "raridade": "Lendário", "icone": "🧙" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 15,
+        "validade": "2025-09-15",
+        "codigo": "VAULT15"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "HashiCorp Vault para segredos de IA", "data": "2025-08-09", "duracao_min": 90 },
+        { "titulo": "Detecção de extração de system prompt", "data": "2025-08-23", "duracao_min": 75 },
+        { "titulo": "KMS e gerenciamento de chaves em LLMOps", "data": "2025-09-06", "duracao_min": 80 }
+      ]
+    },
+    {
+      "id": 13,
+      "nome": "GenAI03 - Segurança em Fine-Tuning e RLHF",
+      "descricao": "Explore vulnerabilidades introduzidas durante o fine-tuning supervisionado e RLHF, incluindo data poisoning intencional, reward hacking e model collapse.",
+      "tecnologia": "Python / Hugging Face PEFT / TRL",
+      "nivel": "Avançado",
+      "numero_modulos": 13,
+      "xp_total": 3200,
+      "badges": [
+        { "nome": "Fine-Tune Defender", "raridade": "Raro", "icone": "⚙️" },
+        { "nome": "RLHF Expert", "raridade": "Épico", "icone": "🎓" },
+        { "nome": "Model Integrity", "raridade": "Lendário", "icone": "💎" }
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Auditando datasets de fine-tuning", "data": "2025-09-10", "duracao_min": 90 },
+        { "titulo": "Reward hacking: como detectar e prevenir", "data": "2025-09-24", "duracao_min": 100 },
+        { "titulo": "PEFT seguro: LoRA e QLoRA na prática", "data": "2025-10-08", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 14,
+      "nome": "GenAI04 - Jailbreak e Bypass de Guardrails",
+      "descricao": "Estude técnicas ofensivas e defensivas de jailbreak em LLMs, incluindo role-play attacks, many-shot prompting e como construir camadas de defesa em profundidade.",
+      "tecnologia": "Python / Garak / NeMo Guardrails",
+      "nivel": "Avançado",
+      "numero_modulos": 10,
+      "xp_total": 2600,
+      "badges": [
+        { "nome": "Jailbreak Hunter", "raridade": "Raro", "icone": "🔓" },
+        { "nome": "Guardrail Builder", "raridade": "Épico", "icone": "🚦" },
+        { "nome": "Red Team Elite", "raridade": "Lendário", "icone": "🔴" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 35,
+        "validade": "2025-08-25",
+        "codigo": "REDTEAM35"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Red Teaming com Garak: automação de ataques", "data": "2025-08-11", "duracao_min": 120 },
+        { "titulo": "NeMo Guardrails: configuração avançada", "data": "2025-08-25", "duracao_min": 90 },
+        { "titulo": "Many-shot jailbreaking: anatomia do ataque", "data": "2025-09-08", "duracao_min": 80 }
+      ]
+    },
+    {
+      "id": 15,
+      "nome": "GenAI05 - Segurança em Multimodal AI",
+      "descricao": "Analise riscos específicos de modelos multimodais (texto, imagem, áudio, vídeo), incluindo injeção via imagem, deepfakes e extração de dados em embeddings visuais.",
+      "tecnologia": "Python / GPT-4 Vision / Stable Diffusion / Whisper",
+      "nivel": "Avançado",
+      "numero_modulos": 11,
+      "xp_total": 2900,
+      "badges": [
+        { "nome": "Vision Defender", "raridade": "Raro", "icone": "👁️" },
+        { "nome": "Deepfake Detector", "raridade": "Épico", "icone": "🎬" },
+        { "nome": "Multimodal Expert", "raridade": "Lendário", "icone": "🌐" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-10-01",
+        "codigo": "MULTI20"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Injeção de prompt via imagem: demo ao vivo", "data": "2025-09-17", "duracao_min": 90 },
+        { "titulo": "Deepfake detection com modelos open-source", "data": "2025-10-01", "duracao_min": 80 }
+      ]
+    },
+    {
+      "id": 16,
+      "nome": "GenAI06 - Compliance e LGPD em Sistemas de IA",
+      "descricao": "Navegue pelos requisitos legais da LGPD, GDPR e AI Act aplicados a sistemas generativos, com foco em direito ao esquecimento, consentimento e auditabilidade.",
+      "tecnologia": "Python / Apache Atlas / OneTrust",
+      "nivel": "Iniciante",
+      "numero_modulos": 6,
+      "xp_total": 1100,
+      "badges": [
+        { "nome": "Compliance Champion", "raridade": "Comum", "icone": "📜" },
+        { "nome": "LGPD Expert", "raridade": "Incomum", "icone": "⚖️" },
+        { "nome": "AI Act Ready", "raridade": "Raro", "icone": "🇪🇺" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 0,
+        "validade": null,
+        "codigo": null
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "LGPD aplicada a chatbots e assistentes de IA", "data": "2025-08-13", "duracao_min": 60 },
+        { "titulo": "EU AI Act: o que muda para desenvolvedores", "data": "2025-08-27", "duracao_min": 70 }
+      ]
+    },
+    {
+      "id": 17,
+      "nome": "GenAI07 - Threat Modeling para Sistemas de IA Generativa",
+      "descricao": "Aplique metodologias STRIDE e PASTA adaptadas a sistemas de IA generativa, identificando ameaças únicas em pipelines LLM e arquiteturas agenticas.",
+      "tecnologia": "OWASP Threat Dragon / Microsoft Threat Modeling Tool",
+      "nivel": "Intermediário",
+      "numero_modulos": 8,
+      "xp_total": 1950,
+      "badges": [
+        { "nome": "Threat Modeler", "raridade": "Incomum", "icone": "🗺️" },
+        { "nome": "STRIDE Master", "raridade": "Raro", "icone": "🎯" },
+        { "nome": "Risk Architect", "raridade": "Épico", "icone": "🏗️" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 10,
+        "validade": "2025-11-30",
+        "codigo": "THREAT10"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "STRIDE para LLMs: workshop prático", "data": "2025-09-20", "duracao_min": 120 },
+        { "titulo": "Modelando ameaças em agentes autônomos", "data": "2025-10-04", "duracao_min": 90 }
+      ]
+    },
+    {
+      "id": 18,
+      "nome": "GenAI08 - Segurança em Embeddings e Vectorstores",
+      "descricao": "Entenda ataques de inversão de embedding, membership inference e envenenamento de índices vetoriais, com defesas baseadas em criptografia homomórfica e acesso granular.",
+      "tecnologia": "Python / Faiss / Qdrant / Chroma",
+      "nivel": "Avançado",
+      "numero_modulos": 10,
+      "xp_total": 2700,
+      "badges": [
+        { "nome": "Embedding Expert", "raridade": "Raro", "icone": "🧮" },
+        { "nome": "Vector Vault", "raridade": "Épico", "icone": "🗄️" },
+        { "nome": "Homomorphic Hero", "raridade": "Lendário", "icone": "🔢" }
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Membership inference attacks em vectorstores", "data": "2025-09-25", "duracao_min": 90 },
+        { "titulo": "Criptografia homomórfica para embeddings", "data": "2025-10-09", "duracao_min": 100 },
+        { "titulo": "Qdrant + ACL: controle de acesso granular", "data": "2025-10-23", "duracao_min": 75 }
+      ]
+    },
+    {
+      "id": 19,
+      "nome": "GenAI09 - Segurança em LLMOps e CI/CD de IA",
+      "descricao": "Implemente pipelines DevSecOps para sistemas de IA, integrando SAST, DAST, model scanning e testes de segurança automatizados em esteiras de CI/CD.",
+      "tecnologia": "Python / GitHub Actions / SonarQube / Garak",
+      "nivel": "Intermediário",
+      "numero_modulos": 9,
+      "xp_total": 2050,
+      "badges": [
+        { "nome": "LLMOps Engineer", "raridade": "Incomum", "icone": "🔄" },
+        { "nome": "DevSecAI Pioneer", "raridade": "Raro", "icone": "🚀" },
+        { "nome": "Pipeline Protector", "raridade": "Épico", "icone": "🛠️" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 25,
+        "validade": "2025-09-30",
+        "codigo": "LLMOPS25"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "GitHub Actions para testes de segurança em LLMs", "data": "2025-08-18", "duracao_min": 90 },
+        { "titulo": "Automatizando red teaming com Garak no CI/CD", "data": "2025-09-01", "duracao_min": 80 }
+      ]
+    },
+    {
+      "id": 20,
+      "nome": "GenAI10 - Identidade e Autenticação em Agentes de IA",
+      "descricao": "Implemente soluções robustas de identidade para agentes de IA, incluindo OAuth 2.0, mTLS entre agentes, verificação de identidade em chamadas de ferramentas e non-repudiation.",
+      "tecnologia": "Python / Keycloak / mTLS / JWT",
+      "nivel": "Avançado",
+      "numero_modulos": 10,
+      "xp_total": 2450,
+      "badges": [
+        { "nome": "Identity Architect", "raridade": "Raro", "icone": "🪪" },
+        { "nome": "Zero Trust AI", "raridade": "Épico", "icone": "🔐" },
+        { "nome": "Auth Master", "raridade": "Lendário", "icone": "👑" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-10-20",
+        "codigo": "AUTH20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Keycloak como IdP para sistemas multiagente", "data": "2025-09-16", "duracao_min": 90 },
+        { "titulo": "mTLS entre microserviços de IA", "data": "2025-09-30", "duracao_min": 75 },
+        { "titulo": "JWT seguro em pipelines LangChain", "data": "2025-10-14", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 21,
+      "nome": "GenAI11 - Observabilidade e Monitoramento de Segurança em LLMs",
+      "descricao": "Construa stacks completas de observabilidade para detectar anomalias, ataques e desvios de comportamento em sistemas LLM em produção.",
+      "tecnologia": "Python / OpenTelemetry / Prometheus / LangSmith",
+      "nivel": "Intermediário",
+      "numero_modulos": 8,
+      "xp_total": 1850,
+      "badges": [
+        { "nome": "Observability Engineer", "raridade": "Incomum", "icone": "📡" },
+        { "nome": "Anomaly Detective", "raridade": "Raro", "icone": "🕵️" },
+        { "nome": "SRE AI Specialist", "raridade": "Épico", "icone": "📈" }
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "OpenTelemetry para rastreamento de chamadas LLM", "data": "2025-08-19", "duracao_min": 80 },
+        { "titulo": "LangSmith: depuração e monitoramento de agentes", "data": "2025-09-02", "duracao_min": 75 }
+      ]
+    },
+    {
+      "id": 22,
+      "nome": "GenAI12 - Segurança em IA Embarcada e Edge",
+      "descricao": "Avalie riscos de segurança em modelos LLM quantizados rodando em dispositivos edge, incluindo extração física de pesos, ataques de canal lateral e proteção de inferência local.",
+      "tecnologia": "Python / llama.cpp / ONNX Runtime / TensorFlow Lite",
+      "nivel": "Avançado",
+      "numero_modulos": 11,
+      "xp_total": 2750,
+      "badges": [
+        { "nome": "Edge AI Security", "raridade": "Raro", "icone": "📱" },
+        { "nome": "Embedded Defender", "raridade": "Épico", "icone": "🔋" },
+        { "nome": "Hardware Security", "raridade": "Lendário", "icone": "💾" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 15,
+        "validade": "2025-11-15",
+        "codigo": "EDGE15"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "llama.cpp: riscos de segurança em LLMs locais", "data": "2025-10-07", "duracao_min": 90 },
+        { "titulo": "Ataques de canal lateral em inferência edge", "data": "2025-10-21", "duracao_min": 80 },
+        { "titulo": "TFLite e proteção de modelos quantizados", "data": "2025-11-04", "duracao_min": 75 }
+      ]
+    },
+    {
+      "id": 23,
+      "nome": "GenAI13 - Fairness, Bias e Segurança Ética em IA",
+      "descricao": "Identifique e mitigue vieses em modelos generativos que possam ser explorados para discriminação, manipulação ou geração de conteúdo prejudicial em escala.",
+      "tecnologia": "Python / Fairlearn / AI Fairness 360 / Responsible AI Toolbox",
+      "nivel": "Iniciante",
+      "numero_modulos": 7,
+      "xp_total": 1300,
+      "badges": [
+        { "nome": "Ethics Guardian", "raridade": "Comum", "icone": "⚖️" },
+        { "nome": "Bias Buster", "raridade": "Incomum", "icone": "🧪" },
+        { "nome": "Fairness Champion", "raridade": "Raro", "icone": "🌈" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 40,
+        "validade": "2025-08-31",
+        "codigo": "ETHICS40"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Detectando bias em outputs de LLMs", "data": "2025-08-14", "duracao_min": 75 },
+        { "titulo": "Fairlearn na prática com modelos generativos", "data": "2025-08-28", "duracao_min": 70 }
+      ]
+    },
+    {
+      "id": 24,
+      "nome": "GenAI14 - Segurança em Copilots e Assistentes de Código",
+      "descricao": "Avalie os riscos de segurança de assistentes de código como GitHub Copilot, incluindo geração de código vulnerável, exfiltração de repositórios e envenenamento de sugestões.",
+      "tecnologia": "Python / Semgrep / CodeQL / Bandit",
+      "nivel": "Intermediário",
+      "numero_modulos": 8,
+      "xp_total": 1900,
+      "badges": [
+        { "nome": "Code Safety Reviewer", "raridade": "Incomum", "icone": "👨‍💻" },
+        { "nome": "SAST Integrator", "raridade": "Raro", "icone": "🔬" },
+        { "nome": "Secure Copilot", "raridade": "Épico", "icone": "🤝" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 10,
+        "validade": "2025-10-10",
+        "codigo": "CODE10"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Auditando código gerado por IA com Semgrep", "data": "2025-09-23", "duracao_min": 80 },
+        { "titulo": "CodeQL para detectar vulnerabilidades em sugestões AI", "data": "2025-10-07", "duracao_min": 75 },
+        { "titulo": "Bandit: análise estática de código Python gerado", "data": "2025-10-21", "duracao_min": 60 }
+      ]
+    },
+    {
+      "id": 25,
+      "nome": "GenAI15 - Ataques Adversariais em Modelos Generativos",
+      "descricao": "Explore ataques adversariais clássicos e modernos aplicados a LLMs e modelos de difusão, incluindo perturbações de texto, imagem e embedding que enganam classificadores de segurança.",
+      "tecnologia": "Python / TextAttack / ART (Adversarial Robustness Toolbox)",
+      "nivel": "Avançado",
+      "numero_modulos": 12,
+      "xp_total": 3100,
+      "badges": [
+        { "nome": "Adversarial Researcher", "raridade": "Raro", "icone": "⚗️" },
+        { "nome": "Robustness Engineer", "raridade": "Épico", "icone": "🛡️" },
+        { "nome": "Attack Neutralizer", "raridade": "Lendário", "icone": "💥" }
+      ],
+      "promocoes": null,
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "TextAttack: automatizando ataques adversariais em NLP", "data": "2025-10-13", "duracao_min": 100 },
+        { "titulo": "ART: robustez em modelos de difusão", "data": "2025-10-27", "duracao_min": 90 },
+        { "titulo": "Perturbações imperceptíveis em embeddings", "data": "2025-11-10", "duracao_min": 80 }
+      ]
+    },
+    {
+      "id": 26,
+      "nome": "GenAI16 - Segurança em APIs de IA Generativa",
+      "descricao": "Implemente APIs seguras para exposição de modelos generativos, abordando autenticação, throttling, validação de schema, prevenção de abuso e CORS para serviços de IA.",
+      "tecnologia": "Python / FastAPI / Kong Gateway / AWS API Gateway",
+      "nivel": "Intermediário",
+      "numero_modulos": 8,
+      "xp_total": 1800,
+      "badges": [
+        { "nome": "API Security Engineer", "raridade": "Incomum", "icone": "🌐" },
+        { "nome": "Gateway Architect", "raridade": "Raro", "icone": "🚪" },
+        { "nome": "API Hardener", "raridade": "Épico", "icone": "🔩" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-09-25",
+        "codigo": "API20"
+      },
+      "vitalicio": false,
+      "lives_ao_vivo": [
+        { "titulo": "Kong Gateway: proteção de APIs de IA", "data": "2025-09-11", "duracao_min": 90 },
+        { "titulo": "Rate limiting avançado para modelos generativos", "data": "2025-09-25", "duracao_min": 75 }
+      ]
+    },
+    {
+      "id": 27,
+      "nome": "GenAI17 - Resposta a Incidentes em Sistemas de IA",
+      "descricao": "Construa playbooks de resposta a incidentes específicos para sistemas de IA generativa, desde detecção de prompt injection em produção até contenção de model drift e rollback de modelos.",
+      "tecnologia": "Python / PagerDuty / JIRA / Elastic SIEM",
+      "nivel": "Avançado",
+      "numero_modulos": 9,
+      "xp_total": 2350,
+      "badges": [
+        { "nome": "Incident Responder AI", "raridade": "Raro", "icone": "🚨" },
+        { "nome": "Playbook Author", "raridade": "Épico", "icone": "📔" },
+        { "nome": "SIEM Integrator", "raridade": "Lendário", "icone": "🔭" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 0,
+        "validade": null,
+        "codigo": null
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Simulação de incidente: prompt injection em produção", "data": "2025-10-16", "duracao_min": 120 },
+        { "titulo": "Elastic SIEM para correlação de eventos de IA", "data": "2025-10-30", "duracao_min": 90 },
+        { "titulo": "Rollback de modelos: estratégias e automação", "data": "2025-11-13", "duracao_min": 80 }
+      ]
+    },
+    {
+      "id": 28,
+      "nome": "GenAI18 - Segurança em Sistemas Multi-Agente",
+      "descricao": "Analise riscos emergentes em arquiteturas com múltiplos agentes LLM colaborativos, incluindo trust propagation attacks, agent impersonation e escalada de privilégio entre agentes.",
+      "tecnologia": "Python / AutoGen / LangGraph / A2A Protocol",
+      "nivel": "Avançado",
+      "numero_modulos": 13,
+      "xp_total": 3400,
+      "badges": [
+        { "nome": "Multi-Agent Security", "raridade": "Raro", "icone": "🕸️" },
+        { "nome": "Trust Controller", "raridade": "Épico", "icone": "🤝" },
+        { "nome": "A2A Protocol Expert", "raridade": "Lendário", "icone": "🌟" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 30,
+        "validade": "2025-09-05",
+        "codigo": "MULTI30"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Trust propagation attacks em redes de agentes", "data": "2025-08-17", "duracao_min": 90 },
+        { "titulo": "A2A Protocol: segurança na comunicação inter-agente", "data": "2025-08-31", "duracao_min": 100 },
+        { "titulo": "LangGraph: isolamento de estado entre agentes", "data": "2025-09-14", "duracao_min": 80 }
+      ]
+    },
+    {
+      "id": 29,
+      "nome": "GenAI19 - Pentest em Aplicações de IA Generativa",
+      "descricao": "Execute um processo completo de pentest em aplicações LLM seguindo a metodologia OWASP, do reconhecimento até o relatório final, utilizando ferramentas especializadas em IA.",
+      "tecnologia": "Python / Garak / Burp Suite AI / PyRIT",
+      "nivel": "Avançado",
+      "numero_modulos": 14,
+      "xp_total": 3500,
+      "badges": [
+        { "nome": "AI Pentester", "raridade": "Raro", "icone": "🥷" },
+        { "nome": "PyRIT Expert", "raridade": "Épico", "icone": "🐍" },
+        { "nome": "OWASP Certified Tester", "raridade": "Lendário", "icone": "🏅" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 20,
+        "validade": "2025-10-05",
+        "codigo": "PENTEST20"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Pentest em LLMs: metodologia OWASP GenAI", "data": "2025-09-26", "duracao_min": 120 },
+        { "titulo": "PyRIT: red teaming automatizado da Microsoft", "data": "2025-10-10", "duracao_min": 100 },
+        { "titulo": "Burp Suite para interceptação de APIs de IA", "data": "2025-10-24", "duracao_min": 90 },
+        { "titulo": "Elaborando relatório de pentest em IA", "data": "2025-11-07", "duracao_min": 75 }
+      ]
+    },
+    {
+      "id": 30,
+      "nome": "GenAI20 - Certificação OWASP GenAI Security Professional",
+      "descricao": "Trilha de preparação completa para a certificação OWASP GenAI Security Professional, consolidando todos os tópicos do framework com simulados, labs hands-on e revisão de casos reais.",
+      "tecnologia": "Python / Multi-Stack (todas as tecnologias anteriores)",
+      "nivel": "Especialista",
+      "numero_modulos": 20,
+      "xp_total": 5000,
+      "badges": [
+        { "nome": "OWASP Scholar", "raridade": "Incomum", "icone": "📖" },
+        { "nome": "GenAI Security Pro", "raridade": "Épico", "icone": "🎖️" },
+        { "nome": "OWASP GenAI Certified", "raridade": "Lendário", "icone": "🏆" },
+        { "nome": "Security Champion DIO", "raridade": "Exclusivo", "icone": "⭐" }
+      ],
+      "promocoes": {
+        "desconto_percentual": 50,
+        "validade": "2025-08-31",
+        "codigo": "CERT50"
+      },
+      "vitalicio": true,
+      "lives_ao_vivo": [
+        { "titulo": "Kickoff: visão geral do framework OWASP GenAI", "data": "2025-08-04", "duracao_min": 60 },
+        { "titulo": "Simulado ao vivo: Top 10 LLM risks", "data": "2025-08-18", "duracao_min": 120 },
+        { "titulo": "Labs hands-on: cenários reais de ataque", "data": "2025-09-01", "duracao_min": 150 },
+        { "titulo": "Simulado ao vivo: GenAI Supply Chain", "data": "2025-09-15", "duracao_min": 120 },
+        { "titulo": "Revisão final e Q&A com especialistas OWASP", "data": "2025-09-29", "duracao_min": 90 }
+      ]
+    }
+  ],
+  "meta": {
+    "total_trilhas": 30,
+    "fonte": "OWASP GenAI Security Project - https://genai.owasp.org/",
+    "versao": "1.0.0",
+    "ultima_atualizacao": "2025-07-30",
+    "niveis_disponiveis": ["Iniciante", "Intermediário", "Avançado", "Especialista"],
+    "raridades_badges": ["Comum", "Incomum", "Raro", "Épico", "Lendário", "Exclusivo"],
+    "xp_total_plataforma": 65550
+  }
+}

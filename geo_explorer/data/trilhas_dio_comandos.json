@@ -1,0 +1,294 @@
+{
+  "trilhas": {
+    "javascript": {
+      "nome": "JavaScript Fullstack Developer",
+      "nivel": "Intermediário",
+      "duracao": "80 horas",
+      "descricao": "Domine JavaScript do básico ao avançado, cobrindo ES6+, DOM, APIs REST e Node.js.",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Fundamentos de JavaScript",
+          "topicos": [
+            "Variáveis, tipos de dados e operadores",
+            "Estruturas de controle (if, switch, loops)",
+            "Funções e escopo",
+            "Arrays e objetos"
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "JavaScript Moderno (ES6+)",
+          "topicos": [
+            "Arrow functions e template literals",
+            "Destructuring e spread/rest",
+            "Promises e async/await",
+            "Módulos ES6 (import/export)"
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Manipulação do DOM",
+          "topicos": [
+            "Seleção e modificação de elementos",
+            "Eventos e listeners",
+            "Formulários e validação",
+            "Animações com JavaScript"
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Consumo de APIs REST",
+          "topicos": [
+            "Fetch API e XMLHttpRequest",
+            "Tratamento de erros HTTP",
+            "JSON e serialização de dados",
+            "Autenticação com tokens JWT"
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Node.js e Backend",
+          "topicos": [
+            "Introdução ao Node.js e NPM",
+            "Criação de servidores HTTP",
+            "Express.js e roteamento",
+            "Conexão com banco de dados"
+          ]
+        }
+      ]
+    },
+    "python": {
+      "nome": "Python Developer",
+      "nivel": "Iniciante ao Avançado",
+      "duracao": "100 horas",
+      "descricao": "Aprenda Python desde os fundamentos até aplicações avançadas com Django, Data Science e automação.",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Python Básico",
+          "topicos": [
+            "Sintaxe e tipos de dados",
+            "Listas, tuplas, dicionários e sets",
+            "Funções e módulos",
+            "Tratamento de exceções"
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Programação Orientada a Objetos",
+          "topicos": [
+            "Classes e objetos",
+            "Herança e polimorfismo",
+            "Encapsulamento e abstração",
+            "Métodos especiais (dunder methods)"
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Python para Web com Django",
+          "topicos": [
+            "Estrutura de um projeto Django",
+            "Models, Views e Templates (MVT)",
+            "Django REST Framework",
+            "Autenticação e permissões"
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Data Science com Python",
+          "topicos": [
+            "NumPy e pandas",
+            "Visualização com Matplotlib e Seaborn",
+            "Machine Learning com Scikit-learn",
+            "Análise exploratória de dados"
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Automação e Scripts",
+          "topicos": [
+            "Web scraping com BeautifulSoup e Selenium",
+            "Automação de tarefas com Python",
+            "Integração com APIs externas",
+            "Testes automatizados com pytest"
+          ]
+        }
+      ]
+    },
+    "react": {
+      "nome": "React Developer",
+      "nivel": "Intermediário",
+      "duracao": "60 horas",
+      "descricao": "Desenvolva aplicações modernas com React, Hooks, Context API, Redux e Next.js.",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Fundamentos do React",
+          "topicos": [
+            "JSX e componentes",
+            "Props e State",
+            "Ciclo de vida dos componentes",
+            "Renderização condicional e listas"
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Hooks Modernos",
+          "topicos": [
+            "useState e useEffect",
+            "useContext e useReducer",
+            "useMemo e useCallback",
+            "Criação de Custom Hooks"
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Gerenciamento de Estado",
+          "topicos": [
+            "Context API avançado",
+            "Redux Toolkit",
+            "Zustand e Jotai",
+            "React Query para dados assíncronos"
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Roteamento e Navegação",
+          "topicos": [
+            "React Router v6",
+            "Rotas aninhadas e dinâmicas",
+            "Proteção de rotas",
+            "Navegação programática"
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Next.js e SSR",
+          "topicos": [
+            "Pages vs App Router",
+            "Server Side Rendering (SSR)",
+            "Static Site Generation (SSG)",
+            "Deploy na Vercel"
+          ]
+        }
+      ]
+    },
+    "java": {
+      "nome": "Java Developer",
+      "nivel": "Intermediário ao Avançado",
+      "duracao": "120 horas",
+      "descricao": "Domine Java com Spring Boot, microsserviços, JPA/Hibernate e arquitetura em nuvem.",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Java Fundamentals",
+          "topicos": [
+            "Tipos de dados, operadores e controle de fluxo",
+            "POO: classes, herança e polimorfismo",
+            "Coleções e generics",
+            "Exceções e tratamento de erros"
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Java Moderno (8+)",
+          "topicos": [
+            "Lambdas e Streams API",
+            "Optional e novos tipos de data/time",
+            "Records e Sealed Classes (Java 17)",
+            "Módulos com JPMS"
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Spring Boot",
+          "topicos": [
+            "Criação de APIs REST com Spring",
+            "Spring Data JPA e Hibernate",
+            "Spring Security e autenticação JWT",
+            "Testes com JUnit e Mockito"
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "Microsserviços",
+          "topicos": [
+            "Arquitetura de microsserviços",
+            "Spring Cloud e Eureka",
+            "API Gateway e Load Balancer",
+            "Comunicação com Feign e RabbitMQ"
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Cloud e DevOps",
+          "topicos": [
+            "Docker e containerização",
+            "Deploy no AWS e Azure",
+            "CI/CD com GitHub Actions",
+            "Monitoramento com Actuator e Prometheus"
+          ]
+        }
+      ]
+    },
+    "devops": {
+      "nome": "DevOps Engineer",
+      "nivel": "Avançado",
+      "duracao": "90 horas",
+      "descricao": "Aprenda práticas DevOps com Docker, Kubernetes, CI/CD, infraestrutura como código e cloud.",
+      "modulos": [
+        {
+          "numero": 1,
+          "titulo": "Linux e Shell Script",
+          "topicos": [
+            "Comandos essenciais do Linux",
+            "Gerenciamento de processos e permissões",
+            "Shell Script para automação",
+            "Cron jobs e agendamento"
+          ]
+        },
+        {
+          "numero": 2,
+          "titulo": "Docker e Containers",
+          "topicos": [
+            "Conceitos de containerização",
+            "Dockerfile e imagens customizadas",
+            "Docker Compose para multi-containers",
+            "Docker Registry e boas práticas"
+          ]
+        },
+        {
+          "numero": 3,
+          "titulo": "Kubernetes",
+          "topicos": [
+            "Arquitetura do Kubernetes",
+            "Pods, Deployments e Services",
+            "ConfigMaps, Secrets e Volumes",
+            "Helm Charts e pacotes"
+          ]
+        },
+        {
+          "numero": 4,
+          "titulo": "CI/CD Pipelines",
+          "topicos": [
+            "GitHub Actions do zero",
+            "Jenkins e pipelines declarativos",
+            "GitLab CI/CD",
+            "Estratégias de deploy (Blue/Green, Canary)"
+          ]
+        },
+        {
+          "numero": 5,
+          "titulo": "Infraestrutura como Código",
+          "topicos": [
+            "Terraform para provisionamento",
+            "Ansible para configuração",
+            "AWS CloudFormation",
+            "Monitoramento com Grafana e Prometheus"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,133 @@
+﻿================================================================================
+  PROJETO FINAL DIO - FORMAÇÃO COM BOB AI
+  Relatório de Testes Unitários dos Comandos /trilha, /desafio e /certificado
+  Gerado em: 04/09/2026 00:00:01
+================================================================================
+============================= test session starts =============================
+platform win32 -- Python 3.14.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Python314\python.exe
+cachedir: .pytest_cache
+rootdir: D:\laragon\www\projeto_final_dio_formacao_bob
+plugins: cov-7.1.0
+collecting ... collected 99 items
+
+tests/test_commands.py::TestLoadTrilhas::test_retorna_dicionario PASSED  [  1%]
+tests/test_commands.py::TestLoadTrilhas::test_chaves_esperadas PASSED    [  2%]
+tests/test_commands.py::TestLoadTrilhas::test_java_tem_campos_obrigatorios PASSED [  3%]
+tests/test_commands.py::TestLoadTrilhas::test_java_tem_cinco_modulos PASSED [  4%]
+tests/test_commands.py::TestLoadTrilhas::test_arquivo_nao_encontrado PASSED [  5%]
+tests/test_commands.py::TestLoadTrilhas::test_json_sem_chave_trilhas PASSED [  6%]
+tests/test_commands.py::TestLoadTrilhas::test_json_vazio_retorna_dict_vazio PASSED [  7%]
+tests/test_commands.py::TestGetTrilha::test_case_insensitive[java] PASSED [  8%]
+tests/test_commands.py::TestGetTrilha::test_case_insensitive[JAVA] PASSED [  9%]
+tests/test_commands.py::TestGetTrilha::test_case_insensitive[Java] PASSED [ 10%]
+tests/test_commands.py::TestGetTrilha::test_case_insensitive[  JAVA  ] PASSED [ 11%]
+tests/test_commands.py::TestGetTrilha::test_javascript PASSED            [ 12%]
+tests/test_commands.py::TestGetTrilha::test_python PASSED                [ 13%]
+tests/test_commands.py::TestGetTrilha::test_react PASSED                 [ 14%]
+tests/test_commands.py::TestGetTrilha::test_devops PASSED                [ 15%]
+tests/test_commands.py::TestGetTrilha::test_trilha_inexistente_levanta_erro PASSED [ 16%]
+tests/test_commands.py::TestGetTrilha::test_mensagem_de_erro_lista_disponiveis PASSED [ 17%]
+tests/test_commands.py::TestGetTrilha::test_trilha_vazia_levanta_erro PASSED [ 18%]
+tests/test_commands.py::TestFormatarTrilha::test_titulo_presente PASSED  [ 19%]
+tests/test_commands.py::TestFormatarTrilha::test_nivel_presente PASSED   [ 20%]
+tests/test_commands.py::TestFormatarTrilha::test_duracao_presente PASSED [ 21%]
+tests/test_commands.py::TestFormatarTrilha::test_descricao_presente PASSED [ 22%]
+tests/test_commands.py::TestFormatarTrilha::test_cinco_modulos PASSED    [ 23%]
+tests/test_commands.py::TestFormatarTrilha::test_modulo1_titulo PASSED   [ 24%]
+tests/test_commands.py::TestFormatarTrilha::test_modulo2_titulo PASSED   [ 25%]
+tests/test_commands.py::TestFormatarTrilha::test_modulo3_titulo PASSED   [ 26%]
+tests/test_commands.py::TestFormatarTrilha::test_modulo4_titulo PASSED   [ 27%]
+tests/test_commands.py::TestFormatarTrilha::test_modulo5_titulo PASSED   [ 28%]
+tests/test_commands.py::TestFormatarTrilha::test_topicos_como_lista PASSED [ 29%]
+tests/test_commands.py::TestFormatarTrilha::test_dica_certificado PASSED [ 30%]
+tests/test_commands.py::TestFormatarTrilha::test_trilha_invalida_levanta_erro PASSED [ 31%]
+tests/test_commands.py::TestFormatarTrilha::test_case_insensitive[JAVA] PASSED [ 32%]
+tests/test_commands.py::TestFormatarTrilha::test_case_insensitive[Java] PASSED [ 33%]
+tests/test_commands.py::TestFormatarTrilha::test_case_insensitive[jAvA] PASSED [ 34%]
+tests/test_commands.py::TestGerarDesafio::test_niveis_validos[iniciante] PASSED [ 35%]
+tests/test_commands.py::TestGerarDesafio::test_niveis_validos[intermediario] PASSED [ 36%]
+tests/test_commands.py::TestGerarDesafio::test_niveis_validos[avancado] PASSED [ 37%]
+tests/test_commands.py::TestGerarDesafio::test_nivel_com_acento PASSED   [ 38%]
+tests/test_commands.py::TestGerarDesafio::test_nivel_maiusculo PASSED    [ 39%]
+tests/test_commands.py::TestGerarDesafio::test_tecnologia_invalida PASSED [ 40%]
+tests/test_commands.py::TestGerarDesafio::test_nivel_invalido PASSED     [ 41%]
+tests/test_commands.py::TestGerarDesafio::test_iniciante_tempo_15 PASSED [ 42%]
+tests/test_commands.py::TestGerarDesafio::test_intermediario_tempo_30 PASSED [ 43%]
+tests/test_commands.py::TestGerarDesafio::test_avancado_tempo_60 PASSED  [ 44%]
+tests/test_commands.py::TestGerarDesafio::test_requisitos_sao_lista PASSED [ 45%]
+tests/test_commands.py::TestGerarDesafio::test_dicas_sao_lista PASSED    [ 46%]
+tests/test_commands.py::TestFormatarDesafio::test_cabecalho PASSED       [ 47%]
+tests/test_commands.py::TestFormatarDesafio::test_tecnologia_no_cabecalho PASSED [ 48%]
+tests/test_commands.py::TestFormatarDesafio::test_nivel_no_cabecalho PASSED [ 49%]
+tests/test_commands.py::TestFormatarDesafio::test_tempo_no_cabecalho PASSED [ 50%]
+tests/test_commands.py::TestFormatarDesafio::test_secao_descricao PASSED [ 51%]
+tests/test_commands.py::TestFormatarDesafio::test_secao_requisitos PASSED [ 52%]
+tests/test_commands.py::TestFormatarDesafio::test_secao_entrada PASSED   [ 53%]
+tests/test_commands.py::TestFormatarDesafio::test_secao_saida PASSED     [ 54%]
+tests/test_commands.py::TestFormatarDesafio::test_secao_dicas PASSED     [ 55%]
+tests/test_commands.py::TestFormatarDesafio::test_secao_criterios PASSED [ 56%]
+tests/test_commands.py::TestFormatarDesafio::test_call_to_action PASSED  [ 57%]
+tests/test_commands.py::TestFormatarDesafio::test_intermediario_tempo_30 PASSED [ 58%]
+tests/test_commands.py::TestFormatarDesafio::test_avancado_tempo_60 PASSED [ 59%]
+tests/test_commands.py::TestFormatarDesafio::test_erro_tecnologia_invalida PASSED [ 60%]
+tests/test_commands.py::TestFormatarDesafio::test_erro_nivel_invalido PASSED [ 61%]
+tests/test_commands.py::TestGerarCodigo::test_formato_basico PASSED      [ 62%]
+tests/test_commands.py::TestGerarCodigo::test_ano_correto PASSED         [ 63%]
+tests/test_commands.py::TestGerarCodigo::test_parte_aleatoria_oito_chars PASSED [ 64%]
+tests/test_commands.py::TestGerarCodigo::test_seed_diferente_gera_codigo_diferente PASSED [ 65%]
+tests/test_commands.py::TestGerarCodigo::test_sem_seed_nao_levanta_erro PASSED [ 66%]
+tests/test_commands.py::TestGerarCertificado::test_banner_presente PASSED [ 67%]
+tests/test_commands.py::TestGerarCertificado::test_nome_maiusculo PASSED [ 68%]
+tests/test_commands.py::TestGerarCertificado::test_nome_da_trilha PASSED [ 69%]
+tests/test_commands.py::TestGerarCertificado::test_cinco_modulos_certificados PASSED [ 70%]
+tests/test_commands.py::TestGerarCertificado::test_modulo1 PASSED        [ 71%]
+tests/test_commands.py::TestGerarCertificado::test_modulo5 PASSED        [ 72%]
+tests/test_commands.py::TestGerarCertificado::test_duracao PASSED        [ 73%]
+tests/test_commands.py::TestGerarCertificado::test_nivel PASSED          [ 74%]
+tests/test_commands.py::TestGerarCertificado::test_data_emissao_formato PASSED [ 75%]
+tests/test_commands.py::TestGerarCertificado::test_codigo_formato PASSED [ 76%]
+tests/test_commands.py::TestGerarCertificado::test_nota_ficticio PASSED  [ 77%]
+tests/test_commands.py::TestGerarCertificado::test_link_diome PASSED     [ 78%]
+tests/test_commands.py::TestGerarCertificado::test_trilha_inexistente_levanta_erro PASSED [ 79%]
+tests/test_commands.py::TestGerarCertificado::test_data_padrao_usa_hoje PASSED [ 80%]
+tests/test_commands.py::TestGerarCertificado::test_tecnologia_case_insensitive[JAVA] PASSED [ 81%]
+tests/test_commands.py::TestGerarCertificado::test_tecnologia_case_insensitive[Java] PASSED [ 82%]
+tests/test_commands.py::TestGerarCertificado::test_tecnologia_case_insensitive[jAvA] PASSED [ 83%]
+tests/test_commands.py::TestGerarCertificado::test_outras_trilhas[python-Python Developer] PASSED [ 84%]
+tests/test_commands.py::TestGerarCertificado::test_outras_trilhas[javascript-JavaScript Fullstack Developer] PASSED [ 85%]
+tests/test_commands.py::TestGerarCertificado::test_outras_trilhas[react-React Developer] PASSED [ 86%]
+tests/test_commands.py::TestGerarCertificado::test_outras_trilhas[devops-DevOps Engineer] PASSED [ 87%]
+tests/test_commands.py::TestFluxoCompletoJava::test_trilha_retorna_string PASSED [ 88%]
+tests/test_commands.py::TestFluxoCompletoJava::test_trilha_contem_nome_java PASSED [ 89%]
+tests/test_commands.py::TestFluxoCompletoJava::test_trilha_contem_spring_boot PASSED [ 90%]
+tests/test_commands.py::TestFluxoCompletoJava::test_trilha_contem_microservicos PASSED [ 91%]
+tests/test_commands.py::TestFluxoCompletoJava::test_desafio_retorna_string PASSED [ 92%]
+tests/test_commands.py::TestFluxoCompletoJava::test_desafio_tempo_30_minutos PASSED [ 93%]
+tests/test_commands.py::TestFluxoCompletoJava::test_desafio_tecnologia_java PASSED [ 94%]
+tests/test_commands.py::TestFluxoCompletoJava::test_certificado_retorna_string PASSED [ 95%]
+tests/test_commands.py::TestFluxoCompletoJava::test_certificado_nome_aluno PASSED [ 96%]
+tests/test_commands.py::TestFluxoCompletoJava::test_certificado_trilha_java PASSED [ 97%]
+tests/test_commands.py::TestFluxoCompletoJava::test_certificado_data PASSED [ 98%]
+tests/test_commands.py::TestFluxoCompletoJava::test_certificado_cinco_modulos PASSED [100%]
+
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.14.7-final-0 _______________
+
+Name                     Stmts   Miss  Cover   Missing
+------------------------------------------------------
+tests\__init__.py            0      0   100%
+tests\conftest.py            3      0   100%
+tests\core.py               77      0   100%
+tests\test_commands.py     284      6    98%   75-80
+------------------------------------------------------
+TOTAL                      364      6    98%
+============================= 99 passed in 0.47s ==============================
+
+================================================================================
+  RESUMO
+  - Testes executados : 99
+  - Aprovados         : 99
+  - Reprovados        : 0
+  - Cobertura core.py : 100%
+  - Cobertura total   : 98%  (delta: 2% = fixtures de setup nos testes)
+================================================================================

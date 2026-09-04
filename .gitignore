@@ -1,0 +1,25 @@
+﻿# Dependencias Node.js
+node_modules/
+geo_explorer/mcp/node_modules/
+
+# Build TypeScript (gerado automaticamente via npm run build)
+geo_explorer/mcp/build/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+
+# Variaveis de ambiente
+.env
+*.env
+
+# Arquivos temporarios
+*.tmp
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
